@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5e15f44-ce7e-448f-86f4-ea768b7d1b9f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafiosLaosDeRepeticao/DeverDois.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafiosLaosDeRepeticao/DeverUm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/desafiosLaosDeRepeticao/deverTres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teste.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafiosLaosDeRepeticao/DeverDois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java/LacosDeRepeticao/DeverDois.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafiosLaosDeRepeticao/DeverUm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/desafiosLaosDeRepeticao/deverTres.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -49,17 +44,31 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/programacao/Generation&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.deverTres">
+  <component name="RunManager" selected="Application.DeverTres">
     <configuration name="DeverDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="desafiosLaosDeRepeticao.DeverDois" />
       <module name="teste" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="desafiosLaosDeRepeticao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeverTres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.LacosDeRepeticao.DeverTres" />
+      <module name="teste" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.LacosDeRepeticao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="deverTres" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desafiosLaosDeRepeticao.deverTres" />
+    <configuration name="Java.LacosDeRepeticao.DeverDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.LacosDeRepeticao.DeverDois" />
       <module name="teste" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="desafiosLaosDeRepeticao.*" />
+          <option name="PATTERN" value="Java.LacosDeRepeticao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,6 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeverTres" />
+        <item itemvalue="Application.Java.LacosDeRepeticao.DeverDois" />
         <item itemvalue="Application.DeverDois" />
         <item itemvalue="Application.DeverUm" />
         <item itemvalue="Application.Deveres" />
