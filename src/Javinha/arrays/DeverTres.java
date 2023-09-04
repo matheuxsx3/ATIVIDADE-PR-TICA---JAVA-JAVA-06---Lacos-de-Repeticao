@@ -1,6 +1,6 @@
-package Java.Arrays;
+package Javinha.arrays;
 
-public class DeverUm {
+public class DeverTres {
     public static void main(String[] args) {
 
     }

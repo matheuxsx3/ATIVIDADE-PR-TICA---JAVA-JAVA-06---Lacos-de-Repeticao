@@ -2,7 +2,7 @@
 //questão 6
 //Escreva um algoritmo em Java, que leia números inteiros via teclado, até que o número zero seja digitado.
 // Ao final, mostre na tela a média de todos os números digitados, que sejam múltiplos de 3. Veja o exemplo abaixo:
-package Java.LacosDeRepeticao;
+package Javinha.lacosrepeticao;
 import java.util.Scanner;
 public class DeverTres {
     public static void main(String[] args) {

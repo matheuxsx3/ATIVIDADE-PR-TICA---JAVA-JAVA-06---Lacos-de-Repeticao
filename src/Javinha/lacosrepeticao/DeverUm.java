@@ -1,7 +1,7 @@
 //questão 2
 // Escreva um algoritmo em Java, que leia 10 números inteiros via teclado e mostre na tela quantos números
 //são pares e quantos número são ímpares.
-package Java.LacosDeRepeticao;
+package Javinha.lacosrepeticao;
 import java.util.Scanner;
 
 public class DeverUm {
