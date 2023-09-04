@@ -4,25 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/generation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/arrays/DeverDois.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/arrays/DeverUm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_03_09_2023_17_55_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atividade arrays">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/Arrays/DeverUm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/LacosDeRepeticao/DeverDois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/lacosrepeticao/DeverDois.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/LacosDeRepeticao/DeverTres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/lacosrepeticao/DeverTres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java/LacosDeRepeticao/DeverUm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/lacosrepeticao/DeverUm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/arrays/DeverTres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/arrays/DeverTres.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,9 +44,22 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DeverDois">
+  <component name="RunManager" selected="Application.DeverTres">
     <configuration name="DeverDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javinha.arrays.DeverDois" />
+      <module name="generation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Javinha.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeverTres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.arrays.DeverTres" />
       <module name="generation" />
       <extension name="coverage">
         <pattern>
@@ -90,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeverTres" />
         <item itemvalue="Application.DeverDois" />
         <item itemvalue="Application.Javinha.arrays.DeverUm" />
         <item itemvalue="Application.DeverUm" />
@@ -105,7 +115,20 @@
       <option name="presentableId" value="Default" />
       <updated>1693843113543</updated>
     </task>
+    <task id="LOCAL-00001" summary="atividade arrays">
+      <option name="closed" value="true" />
+      <created>1693857602930</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693857602930</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="atividade arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="atividade arrays" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
