@@ -19,11 +19,11 @@ public class DeverUm {
         Scanner scanner = new Scanner(System.in);
         Queue<String> objeto = new LinkedList<>();
         boolean condicao = true;
-
+        System.out.println("***********************************************************************");
+        System.out.println("1: Adicionar um novo Cliente na fila. \n2: Listar todos os Clientes na fila \n3: Retirar Cliente da fila \n0: Sair");
+        System.out.println("***********************************************************************");
         while (condicao) {
-            System.out.println("***********************************************************************");
-            System.out.println("1: Adicionar um novo Cliente na fila. \n2: Listar todos os Clientes na fila \n3: Retirar Cliente da fila \n0: Sair");
-            System.out.println("***********************************************************************");
+
             System.out.println("Digite uma opção:");
             int numero = scanner.nextInt();
 
