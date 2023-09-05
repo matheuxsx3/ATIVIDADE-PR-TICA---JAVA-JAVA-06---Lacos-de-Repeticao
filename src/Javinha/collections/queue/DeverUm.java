@@ -40,6 +40,7 @@ public class DeverUm {
                         System.out.println("A lista está vazia!");
                     } else {
                         objeto.remove();
+                        System.out.println("O cliente foi chamado!");
                     }
                 }
                 default -> System.out.println("Opção inválida. Tente novamente.");

@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atividade collections">
-      <change beforePath="$PROJECT_DIR$/src/Javinha/collections/queue/DeverDois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/collections/queue/DeverDois.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/collections/queue/DeverUm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/collections/queue/DeverUm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Javinha/collections/stack/DeverUm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/collections/stack/DeverUm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +32,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -50,22 +54,9 @@
     "settings.editor.selected.configurable": "proofread"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Javinha.collections.queue.DeverUm">
+  <component name="RunManager" selected="Application.Javinha.collections.stack.DeverUm">
     <configuration name="DeverDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javinha.collections.list.DeverDois" />
-      <module name="generation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Javinha.collections.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javinha.collections.list.DeverUm" />
       <module name="generation" />
       <extension name="coverage">
         <pattern>
@@ -116,13 +107,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Javinha.collections.stack.DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.collections.stack.DeverUm" />
+      <module name="generation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Javinha.collections.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Javinha.collections.stack.DeverUm" />
         <item itemvalue="Application.Javinha.collections.queue.DeverUm" />
         <item itemvalue="Application.Javinha.collections.DeverDois" />
         <item itemvalue="Application.Javinha.collections.set.DeverDois" />
         <item itemvalue="Application.Javinha.collections.set.DeverUm" />
-        <item itemvalue="Application.Javinha.collections.DeverUm" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +291,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693941268972</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="atividade collections">
+      <option name="closed" value="true" />
+      <created>1693941545723</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1693941545723</updated>
+    </task>
+    <task id="LOCAL-00021" summary="atividade collections">
+      <option name="closed" value="true" />
+      <created>1693941673041</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1693941673041</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
