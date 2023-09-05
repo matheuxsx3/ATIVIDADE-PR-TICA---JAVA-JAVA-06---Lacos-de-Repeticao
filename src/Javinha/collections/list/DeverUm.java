@@ -3,7 +3,7 @@
 // e deverá adicioná-las individualmente no ArrayList. Em seguida, faça o que se pede:
 //Mostre na tela todas as cores que foram adicionadas.
 //Mostre na tela todas as cores que foram adicionadas ordenadas em ordem crescente.
-package Javinha.collections.arraylist;
+package Javinha.collections.list;
 
 import java.util.ArrayList;
 import java.util.Collections;
