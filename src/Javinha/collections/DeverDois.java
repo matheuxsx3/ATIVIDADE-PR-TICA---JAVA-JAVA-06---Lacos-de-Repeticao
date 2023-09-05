@@ -29,7 +29,8 @@ public class DeverDois {
         System.out.println("Digite o número que você deseja encontrar:");
         num = leia.nextInt();
 
-        int posicao = numero.indexOf(num);
+        int posicao = -1;
+        posicao = numero.indexOf(num);
 
         if (posicao != -1) {
 
