@@ -3,7 +3,7 @@
 // ArrayList, exiba na tela a posição deste número na Collection. Caso o número não seja encontrado,
 // ele deverá exibir na tela a mensagem: O número NN não foi encontrado!
 
-package Javinha.collections;
+package Javinha.collections.arraylist;
 
 import java.util.ArrayList;
 import java.util.Scanner;

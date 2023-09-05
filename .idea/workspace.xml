@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atividade collections">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javinha/collections/queue/DeverDois.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javinha/collections/queue/DeverUm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javinha/collections/stack/DeverDois.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javinha/collections/stack/DeverUm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/collections/DeverDois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/collections/arraylist/DeverDois.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/collections/DeverQuatro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/collections/set/DeverDois.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/collections/DeverTres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/collections/set/DeverUm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/collections/DeverUm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/collections/arraylist/DeverUm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +58,19 @@
   }
 }]]></component>
   <component name="RunManager" selected="Application.Javinha.collections.DeverDois">
+    <configuration name="DeverDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.collections.arraylist.DeverDois" />
+      <module name="generation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Javinha.collections.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DeverQuatro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javinha.arrays.DeverQuatro" />
       <module name="generation" />
@@ -63,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Javinha.collections.DeverDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javinha.collections.DeverDois" />
+    <configuration name="DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.collections.arraylist.DeverUm" />
       <module name="generation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Javinha.collections.*" />
+          <option name="PATTERN" value="Javinha.collections.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Javinha.collections.DeverQuatro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javinha.collections.DeverQuatro" />
+    <configuration name="Javinha.collections.set.DeverDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.collections.set.DeverDois" />
       <module name="generation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Javinha.collections.*" />
+          <option name="PATTERN" value="Javinha.collections.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,25 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Javinha.collections.DeverTres" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javinha.collections.DeverTres" />
+    <configuration name="Javinha.collections.set.DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.collections.set.DeverUm" />
       <module name="generation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Javinha.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Javinha.collections.DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javinha.collections.DeverUm" />
-      <module name="generation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Javinha.collections.*" />
+          <option name="PATTERN" value="Javinha.collections.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,8 +126,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Javinha.collections.DeverDois" />
-        <item itemvalue="Application.Javinha.collections.DeverQuatro" />
-        <item itemvalue="Application.Javinha.collections.DeverTres" />
+        <item itemvalue="Application.Javinha.collections.set.DeverDois" />
+        <item itemvalue="Application.Javinha.collections.set.DeverUm" />
         <item itemvalue="Application.Javinha.collections.DeverUm" />
         <item itemvalue="Application.DeverQuatro" />
       </list>
@@ -254,7 +262,23 @@
       <option name="project" value="LOCAL" />
       <updated>1693936823790</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="atividade collections">
+      <option name="closed" value="true" />
+      <created>1693936989593</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1693936989593</updated>
+    </task>
+    <task id="LOCAL-00017" summary="atividade collections">
+      <option name="closed" value="true" />
+      <created>1693937449712</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1693937449712</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

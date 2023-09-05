@@ -3,13 +3,13 @@ O programa deverá solicitar ao usuário, que ele digite via teclado 10 valores 
 e adicione-os individualmente na Collection Set. Em seguida, faça o que se pede:
 Mostre na tela todos os elementos da Collection Set, utilizando a Classe Iterator*/
 
-package Javinha.collections;
+package Javinha.collections.set;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Scanner;
 import java.util.Set;
 
-public class DeverTres {
+public class DeverUm {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
         Set<Integer> numeros = new HashSet<>();

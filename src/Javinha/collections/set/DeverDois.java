@@ -6,14 +6,13 @@ exiba na tela a mensagem: Número 00 Encontrado! Caso o número não seja encont
  ele deverá exibir na tela a mensagem: O número NN não foi encontrado!
  */
 
-package Javinha.collections;
+package Javinha.collections.set;
 
-import java.util.Collections;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class DeverQuatro {
+public class DeverDois {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Set<Integer> numeros = new HashSet<>();
