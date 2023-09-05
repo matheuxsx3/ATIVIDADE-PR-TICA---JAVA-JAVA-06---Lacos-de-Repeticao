@@ -14,7 +14,7 @@ public class DeverDois {
 
         Scanner leia = new Scanner(System.in);
 
-        int num = 0;
+        int num;
         numero.add(2);
         numero.add(5);
         numero.add(1);
@@ -29,8 +29,8 @@ public class DeverDois {
         System.out.println("Digite o número que você deseja encontrar:");
         num = leia.nextInt();
 
-        int posicao = -1;
-        posicao = numero.indexOf(num);
+
+        int posicao = numero.indexOf(num);
 
         if (posicao != -1) {
 

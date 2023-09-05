@@ -1,3 +1,4 @@
+.idea
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
@@ -14,7 +15,6 @@ out/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
-.idea
 
 ### NetBeans ###
 /nbproject/private/
