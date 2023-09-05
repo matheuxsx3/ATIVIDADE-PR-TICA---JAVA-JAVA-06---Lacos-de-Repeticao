@@ -37,7 +37,6 @@ public class DeverDois {
             System.out.println("O número " + num + " está localizado na posição: " + posicao);
         } else {
             System.out.println("O número " + num + " não foi encontrado!");
-            System.out.println("oi");
         }
     }
 }
