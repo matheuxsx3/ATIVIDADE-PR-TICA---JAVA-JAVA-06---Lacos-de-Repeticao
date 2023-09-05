@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atividade arrays">
-      <change afterPath="$PROJECT_DIR$/src/Javinha/collections/DeverUm.java" afterDir="false" />
+    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atividade collections">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/collections/DeverDois.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/collections/DeverDois.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/collections/DeverUm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/collections/DeverUm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;proofread&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Javinha.collections.DeverUm">
+  <component name="RunManager" selected="Application.Javinha.collections.DeverDois">
     <configuration name="DeverDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javinha.arrays.DeverDois" />
       <module name="generation" />
@@ -83,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Javinha.arrays.DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javinha.arrays.DeverUm" />
+    <configuration name="Javinha.collections.DeverDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.collections.DeverDois" />
       <module name="generation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Javinha.arrays.*" />
+          <option name="PATTERN" value="Javinha.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Javinha.collections.DeverDois" />
         <item itemvalue="Application.Javinha.collections.DeverUm" />
         <item itemvalue="Application.DeverQuatro" />
         <item itemvalue="Application.DeverTres" />
         <item itemvalue="Application.DeverDois" />
-        <item itemvalue="Application.Javinha.arrays.DeverUm" />
       </list>
     </recent_temporary>
   </component>
@@ -152,12 +154,37 @@
       <option name="project" value="LOCAL" />
       <updated>1693862633589</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="atividade collections">
+      <option name="closed" value="true" />
+      <created>1693880191506</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693880191506</updated>
+    </task>
+    <task id="LOCAL-00005" summary="atividade collections">
+      <option name="closed" value="true" />
+      <created>1693880249844</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693880249844</updated>
+    </task>
+    <task id="LOCAL-00006" summary="atividade collections">
+      <option name="closed" value="true" />
+      <created>1693880359228</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693880359228</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="atividade arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="atividade arrays" />
+    <MESSAGE value="atividade collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="atividade collections" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

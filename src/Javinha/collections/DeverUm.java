@@ -20,12 +20,12 @@ public class DeverUm {
             cores.add(cor);
         }
         scanner.close();
-        System.out.println("Listar todas as cores:");
+        System.out.println("Listar todas as cores:\n");
         for (String cor : cores) {
             System.out.println(cor);
         }
         Collections.sort(cores);
-        System.out.println("Ordenar as cores:");
+        System.out.println("Ordenar as cores:\n");
         for (String cor : cores) {
             System.out.println(cor);
         }
