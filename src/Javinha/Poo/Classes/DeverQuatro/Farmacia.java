@@ -1,4 +1,4 @@
-package Javinha.Poo.Classes.DeverDois;
+package Javinha.Poo.Classes.DeverQuatro;
 
 public class Farmacia {
     private String remedio;

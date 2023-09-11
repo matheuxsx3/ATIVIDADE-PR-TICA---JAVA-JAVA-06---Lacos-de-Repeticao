@@ -14,7 +14,7 @@
 
         package Javinha.Poo.Classes.DeverDois;*/
 
-package Javinha.Poo.Classes.DeverDois;
+package Javinha.Poo.Classes.DeverQuatro;
 public class TestaFarmacia {
     public static void main(String[] args) {
     Farmacia farmacia1 = new Farmacia("Dipirona", "Clear men", "Above","Maxsuel", 100);
