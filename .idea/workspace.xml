@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atualização">
+    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="Dever Classes">
+      <change afterPath="$PROJECT_DIR$/src/Javinha/LacosDecisao/IfElse/DeverUm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javinha/LacosDecisao/SwichCase/DeverUm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverDois/Farmacia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverDois/TestaFarmacia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverUm/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverUm/TestaCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/funcao/DeverUm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/funcao/DeverUm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,23 +55,10 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/programacao",
-    "settings.editor.selected.configurable": "configurable.group.appearance"
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DeverDois">
-    <configuration name="DeverDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javinha.collections.list.DeverDois" />
-      <module name="generation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Javinha.collections.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TestaFarmacia">
     <configuration name="Javinha.collections.queue.DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javinha.collections.queue.DeverUm" />
       <module name="generation" />
@@ -93,19 +85,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Javinha.collections.set.DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javinha.collections.set.DeverUm" />
-      <module name="generation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Javinha.collections.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Javinha.collections.stack.DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javinha.collections.stack.DeverUm" />
       <module name="generation" />
@@ -119,12 +98,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestaCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.Poo.Classes.DeverUm.TestaCliente" />
+      <module name="generation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Javinha.Poo.Classes.DeverUm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaFarmacia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.Poo.Classes.DeverDois.TestaFarmacia" />
+      <module name="generation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Javinha.Poo.Classes.DeverDois.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaFarmacia" />
+        <item itemvalue="Application.TestaCliente" />
         <item itemvalue="Application.Javinha.collections.stack.DeverUm" />
         <item itemvalue="Application.Javinha.collections.queue.DeverUm" />
         <item itemvalue="Application.Javinha.collections.set.DeverDois" />
-        <item itemvalue="Application.Javinha.collections.set.DeverUm" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +359,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694222716605</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="atualização">
+      <option name="closed" value="true" />
+      <created>1694223256202</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1694223256202</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +392,8 @@
     <MESSAGE value="atividade collections" />
     <MESSAGE value="atividade" />
     <MESSAGE value="atualização" />
-    <option name="LAST_COMMIT_MESSAGE" value="atualização" />
+    <MESSAGE value="Dever Classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dever Classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
