@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="Dever Classes">
+    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atualização">
+      <change afterPath="$PROJECT_DIR$/src/Javinha/LacosDecisao/SwichCase/DeverDois.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/LacosDecisao/IfElse/DeverUm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/LacosDecisao/IfElse/DeverUm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/LacosDecisao/SwichCase/DeverUm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/LacosDecisao/SwichCase/DeverUm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,24 +44,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/programacao",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/programacao&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.TestaFarmacia">
-    <configuration name="Javinha.collections.queue.DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javinha.collections.queue.DeverUm" />
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Javinha.LacosDecisao.SwichCase" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Javinha.LacosDecisao.IfElse.DeverUm">
+    <configuration name="DesafioUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.LacosDecisao.IfElse.DesafioUm" />
       <module name="generation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Javinha.collections.queue.*" />
+          <option name="PATTERN" value="Javinha.LacosDecisao.SwichCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Javinha.collections.set.DeverDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javinha.collections.set.DeverDois" />
+    <configuration name="DeverDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.LacosDecisao.SwichCase.DeverDois" />
       <module name="generation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Javinha.collections.set.*" />
+          <option name="PATTERN" value="Javinha.LacosDecisao.SwichCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Javinha.collections.stack.DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javinha.collections.stack.DeverUm" />
+    <configuration name="DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.LacosDecisao.SwichCase.DeverUm" />
       <module name="generation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Javinha.collections.stack.*" />
+          <option name="PATTERN" value="Javinha.LacosDecisao.SwichCase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javinha.Poo.Classes.DeverUm.TestaCliente" />
+    <configuration name="Javinha.LacosDecisao.IfElse.DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.LacosDecisao.IfElse.DeverUm" />
       <module name="generation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Javinha.Poo.Classes.DeverUm.*" />
+          <option name="PATTERN" value="Javinha.LacosDecisao.IfElse.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Javinha.LacosDecisao.IfElse.DeverUm" />
+        <item itemvalue="Application.DeverDois" />
+        <item itemvalue="Application.DeverUm" />
+        <item itemvalue="Application.DesafioUm" />
         <item itemvalue="Application.TestaFarmacia" />
-        <item itemvalue="Application.TestaCliente" />
-        <item itemvalue="Application.Javinha.collections.stack.DeverUm" />
-        <item itemvalue="Application.Javinha.collections.queue.DeverUm" />
-        <item itemvalue="Application.Javinha.collections.set.DeverDois" />
       </list>
     </recent_temporary>
   </component>
@@ -377,7 +385,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694454786812</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Dever Classes">
+      <option name="closed" value="true" />
+      <created>1694454939029</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1694454939029</updated>
+    </task>
+    <task id="LOCAL-00032" summary="atualização">
+      <option name="closed" value="true" />
+      <created>1694455008986</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1694455008986</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -401,9 +425,9 @@
     <MESSAGE value="atividade arrays" />
     <MESSAGE value="atividade collections" />
     <MESSAGE value="atividade" />
-    <MESSAGE value="atualização" />
     <MESSAGE value="Dever Classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dever Classes" />
+    <MESSAGE value="atualização" />
+    <option name="LAST_COMMIT_MESSAGE" value="atualização" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
