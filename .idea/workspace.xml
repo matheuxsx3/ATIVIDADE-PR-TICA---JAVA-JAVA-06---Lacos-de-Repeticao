@@ -4,17 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atualização laços de decisão">
-      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/Heranca/DeverDois/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/Heranca/DeverUm/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/Heranca/DeverUm/PessoaFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/Heranca/DeverUm/PessoaJuridica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/Heranca/DeverUm/TestaCliente.java" afterDir="false" />
+    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atividade herança">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverQuatro/Farmacia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverQuatro/Farmacia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverQuatro/TestaFarmacia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverQuatro/TestaFarmacia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverUm/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverUm/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverUm/TestaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverUm/TestaCliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,20 +57,7 @@
       <recent name="Javinha.LacosDecisao.SwichCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestaCliente">
-    <configuration name="DesafioUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javinha.LacosDecisao.IfElse.DesafioUm" />
-      <module name="generation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Javinha.LacosDecisao.SwichCase.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.DeverUm">
     <configuration name="DeverDois" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javinha.LacosDecisao.SwichCase.DeverDois" />
       <module name="generation" />
@@ -119,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.Poo.Heranca.DeverDois.Main" />
+      <module name="generation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Javinha.Poo.Heranca.DeverDois.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestaCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javinha.Poo.Heranca.DeverUm.TestaCliente" />
       <module name="generation" />
@@ -134,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeverUm" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestaCliente" />
         <item itemvalue="Application.DeverDois" />
         <item itemvalue="Application.Javinha.LacosDecisao.IfElse.DeverUm" />
-        <item itemvalue="Application.DeverUm" />
-        <item itemvalue="Application.DesafioUm" />
       </list>
     </recent_temporary>
   </component>
@@ -431,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694541028234</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="atividade herança">
+      <option name="closed" value="true" />
+      <created>1694551059579</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1694551059579</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,7 +457,8 @@
     <MESSAGE value="Dever Classes" />
     <MESSAGE value="atualização" />
     <MESSAGE value="atualização laços de decisão" />
-    <option name="LAST_COMMIT_MESSAGE" value="atualização laços de decisão" />
+    <MESSAGE value="atividade herança" />
+    <option name="LAST_COMMIT_MESSAGE" value="atividade herança" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
