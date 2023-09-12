@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atividade herança">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atualização base">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -430,7 +430,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694551059579</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="atualização base">
+      <option name="closed" value="true" />
+      <created>1694551646100</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1694551646100</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -458,7 +466,8 @@
     <MESSAGE value="atualização" />
     <MESSAGE value="atualização laços de decisão" />
     <MESSAGE value="atividade herança" />
-    <option name="LAST_COMMIT_MESSAGE" value="atividade herança" />
+    <MESSAGE value="atualização base" />
+    <option name="LAST_COMMIT_MESSAGE" value="atualização base" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
