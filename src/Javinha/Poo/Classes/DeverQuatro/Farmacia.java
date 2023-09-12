@@ -1,6 +1,6 @@
 package Javinha.Poo.Classes.DeverQuatro;
 
-public class Farmacia {
+class Farmacia {
     private String remedio;
     private String shampoo;
     private String condicionador;

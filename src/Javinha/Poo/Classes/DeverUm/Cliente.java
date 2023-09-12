@@ -15,7 +15,7 @@
 
 package Javinha.Poo.Classes.DeverUm;
 
-public class Cliente {
+class Cliente {
     private String nome;
     private int rg;
     private int cpf;

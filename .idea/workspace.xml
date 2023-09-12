@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atualização laços de decisão" />
+    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atualização laços de decisão">
+      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/Heranca/DeverDois/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/Heranca/DeverUm/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/Heranca/DeverUm/PessoaFisica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/Heranca/DeverUm/PessoaJuridica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/Heranca/DeverUm/TestaCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverQuatro/Farmacia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverQuatro/Farmacia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverQuatro/TestaFarmacia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverQuatro/TestaFarmacia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverUm/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverUm/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverUm/TestaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/Poo/Classes/DeverUm/TestaCliente.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +66,7 @@
       <recent name="Javinha.LacosDecisao.SwichCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeverDois">
+  <component name="RunManager" selected="Application.TestaCliente">
     <configuration name="DesafioUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javinha.LacosDecisao.IfElse.DesafioUm" />
       <module name="generation" />
@@ -108,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestaFarmacia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Javinha.Poo.Classes.DeverQuatro.TestaFarmacia" />
+    <configuration name="TestaCliente" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Javinha.Poo.Heranca.DeverUm.TestaCliente" />
       <module name="generation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Javinha.Poo.Classes.DeverQuatro.*" />
+          <option name="PATTERN" value="Javinha.Poo.Heranca.DeverUm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaCliente" />
         <item itemvalue="Application.DeverDois" />
         <item itemvalue="Application.Javinha.LacosDecisao.IfElse.DeverUm" />
         <item itemvalue="Application.DeverUm" />
         <item itemvalue="Application.DesafioUm" />
-        <item itemvalue="Application.TestaFarmacia" />
       </list>
     </recent_temporary>
   </component>
@@ -412,7 +423,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694540881491</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="atualização laços de decisão">
+      <option name="closed" value="true" />
+      <created>1694541028234</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1694541028234</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

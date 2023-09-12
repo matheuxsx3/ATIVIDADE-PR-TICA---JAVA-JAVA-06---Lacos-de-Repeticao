@@ -15,7 +15,7 @@
 
 package Javinha.Poo.Classes.DeverUm;
 
-public class TestaCliente {
+class TestaCliente {
     public static void main(String[] args) {
         Cliente clienteUm = new Cliente("Matheus", 123456789, 123456789, 19, true);
         Cliente clienteDois = new Cliente("Monique", 123456777, 123456999, 30, false);
