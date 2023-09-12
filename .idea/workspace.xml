@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atualização">
-      <change afterPath="$PROJECT_DIR$/src/Javinha/LacosDecisao/SwichCase/DeverDois.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/LacosDecisao/IfElse/DeverUm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/LacosDecisao/IfElse/DeverUm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/LacosDecisao/SwichCase/DeverUm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/LacosDecisao/SwichCase/DeverUm.java" afterDir="false" />
-    </list>
+    <list default="true" id="1a3a6497-0035-4bee-b16a-2593065ab94e" name="Changes" comment="atualização laços de decisão" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +55,7 @@
       <recent name="Javinha.LacosDecisao.SwichCase" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Javinha.LacosDecisao.IfElse.DeverUm">
+  <component name="RunManager" selected="Application.DeverDois">
     <configuration name="DesafioUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javinha.LacosDecisao.IfElse.DesafioUm" />
       <module name="generation" />
@@ -128,8 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Javinha.LacosDecisao.IfElse.DeverUm" />
         <item itemvalue="Application.DeverDois" />
+        <item itemvalue="Application.Javinha.LacosDecisao.IfElse.DeverUm" />
         <item itemvalue="Application.DeverUm" />
         <item itemvalue="Application.DesafioUm" />
         <item itemvalue="Application.TestaFarmacia" />
@@ -401,7 +396,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694455008986</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="atualização laços de decisão">
+      <option name="closed" value="true" />
+      <created>1694540745595</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1694540745595</updated>
+    </task>
+    <task id="LOCAL-00034" summary="atualização laços de decisão">
+      <option name="closed" value="true" />
+      <created>1694540881491</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1694540881491</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,7 +438,8 @@
     <MESSAGE value="atividade" />
     <MESSAGE value="Dever Classes" />
     <MESSAGE value="atualização" />
-    <option name="LAST_COMMIT_MESSAGE" value="atualização" />
+    <MESSAGE value="atualização laços de decisão" />
+    <option name="LAST_COMMIT_MESSAGE" value="atualização laços de decisão" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

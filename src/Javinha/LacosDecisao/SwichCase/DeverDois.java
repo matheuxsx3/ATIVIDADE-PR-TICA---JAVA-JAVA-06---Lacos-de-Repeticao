@@ -27,7 +27,7 @@ public class DeverDois {
             case 1:
                 cargo = "gerente";
                 novoSalario = salario + ((double) 10 / 100) * salario;
-                System.out.println(novoSalario);
+                System.out.println("Nome do colaborador=" + colaborador + "\nCargo=" + cargo + "\nSalário=" + novoSalario);
 
                 break;
             case 2:
