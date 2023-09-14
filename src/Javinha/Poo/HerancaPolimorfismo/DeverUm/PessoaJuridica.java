@@ -1,4 +1,4 @@
-package Javinha.Poo.Heranca.DeverUm;
+package Javinha.Poo.HerancaPolimorfismo.DeverUm;
 
 final class PessoaJuridica extends Cliente {
     private String cnpj;

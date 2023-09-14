@@ -1,11 +1,13 @@
-package Javinha.Poo.Interfaces;
+package Javinha.Poo.InterfacesAbstracao;
 
 
 
-final class PessoaJuridica extends Cliente {
+class PessoaJuridica extends Cliente {
+
     private String cnpj;
     private int idadeDaEmpresa;
     private String porte;
+
 
     public PessoaJuridica(String nome, String numeroTelefone, String nacionalidade, String endereco, String dataInicioParceria, String cnpj, int idadeDaEmpresa, String porte) {
         super(nome, numeroTelefone, nacionalidade, endereco, dataInicioParceria);
@@ -18,8 +20,8 @@ final class PessoaJuridica extends Cliente {
     public void visualizar() {
         super.visualizar();
         System.out.println("cnpj = "+cnpj);
-        System.out.println("porte ="+porte+ "porte");
-        System.out.println("idade da empresa = "+idadeDaEmpresa);
+        System.out.println("porte = "+porte+ " porte");
+        System.out.println("idade da empresa = "+idadeDaEmpresa + " anos");
     }
 
     public String getCnpj() {

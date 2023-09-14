@@ -1,5 +1,5 @@
 
-package Javinha.Poo.Heranca.DeverUm;
+package Javinha.Poo.HerancaPolimorfismo.DeverUm;
 
 import java.util.Scanner;
 
