@@ -2,7 +2,9 @@
 package Javinha.Poo.InterfacesAbstracao;
 
 
+import java.util.Optional;
 import java.util.Scanner;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 public class TestaCliente {
     public static void main(String[] args) {
@@ -29,32 +31,50 @@ public class TestaCliente {
         System.out.println("0 - Sair");
         System.out.println("*******************************************************************************");
 
-        boolean sair = true;
-        while (sair) {
+        AtomicBoolean sair = new AtomicBoolean(true);
+        while (sair.get()) {
             System.out.println("\n////////Digite um número:////////");
 
             try {
-                int opcao = scanner.nextInt();
-                switch (opcao) {
-                    case 0 -> sair = false;
-                    case 1 -> cliente.visualizar();
-                    case 2 -> cliente2.visualizar();
-                    case 3 -> pessoaFisica1.visualizar();
-                    case 4 -> pessoaFisica2.visualizar();
-                    case 5 -> pessoaJuridica1.visualizar();
-                    case 6 -> pessoaJuridica2.visualizar();
-                    case 7 -> {
-                        patrocinador1.visualizar();
-                        patrocinador1.produtoContribuido();
+                Optional<Integer> opcaoOptional = Optional.of(scanner.nextInt());
+                opcaoOptional.ifPresent(opcao -> {
+                    switch (opcao) {
+                        case 0:
+                            sair.set(false);
+                            break;
+                        case 1:
+                            cliente.visualizar();
+                            break;
+                        case 2:
+                            cliente2.visualizar();
+                            break;
+                        case 3:
+                            pessoaFisica1.visualizar();
+                            break;
+                        case 4:
+                            pessoaFisica2.visualizar();
+                            break;
+                        case 5:
+                            pessoaJuridica1.visualizar();
+                            break;
+                        case 6:
+                            pessoaJuridica2.visualizar();
+                            break;
+                        case 7:
+                            patrocinador1.visualizar();
+                            patrocinador1.produtoContribuido();
+                            break;
+                        case 8:
+                            patrocinador2.visualizar();
+                            patrocinador2.produtoContribuido();
+                            break;
+                        default:
+                            System.out.println("Opção inválida: " + opcao);
                     }
-                    case 8 -> {
-                        patrocinador2.visualizar();
-                        patrocinador2.produtoContribuido();
-                    }
-                    default -> throw new InvalidCaseException("Opção inválida: " + opcao);
-                }
-            } catch (InvalidCaseException e) {
-                System.err.println("Erro: " + e.getMessage());
+                });
+            } catch (Exception e) {
+                System.err.println("Erro: Entrada inválida.");
+                scanner.nextLine();
             }
         }
     }
