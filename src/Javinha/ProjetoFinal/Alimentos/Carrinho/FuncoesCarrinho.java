@@ -4,6 +4,7 @@ import Javinha.ProjetoFinal.Alimentos.Cardapios.Cardapio;
 import Javinha.ProjetoFinal.Alimentos.Produto;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class FuncoesCarrinho {
     Carrinho carrinho = new Carrinho();
