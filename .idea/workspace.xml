@@ -4,24 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d7435b-6dcb-497b-b496-13d91a50204e" name="Changes" comment="docs ocultos">
-      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Cardapios/Cardapio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/Carrinho.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/Teste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Enunciado.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/FuncoesGerais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/MenuCardapio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/MenuInicial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Readme.md" afterDir="false" />
+    <list default="true" id="a9d7435b-6dcb-497b-b496-13d91a50204e" name="Changes" comment="Projeto final">
+      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/OrganizarCarrinho.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Comidas/Alimento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/FuncoesGereais.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/TestaProjeto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Cardapios/Cardapio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Cardapios/Cardapio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/Carrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/Carrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/FuncoesCarrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/FuncoesGerais.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/MenuCardapio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/MenuInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/MenuInicial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Main.java" afterDir="false" />
     </list>
+    <list id="3c73f727-312f-4105-8fff-0086d50191d5" name="Changes by elias" comment="" />
     <list id="5b1c361c-6514-46fa-a512-73a4cad0addd" name="Changes by user" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -211,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694797810284</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Projeto final">
+      <option name="closed" value="true" />
+      <created>1694985126229</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694985126229</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,7 +236,8 @@
     <MESSAGE value="adição de Option no código" />
     <MESSAGE value="criacão do primerio projeto final" />
     <MESSAGE value="docs ocultos" />
-    <option name="LAST_COMMIT_MESSAGE" value="docs ocultos" />
+    <MESSAGE value="Projeto final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projeto final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -241,6 +245,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.ConcurrentModificationException" package="java.util" />
+          <option name="timeStamp" value="13" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

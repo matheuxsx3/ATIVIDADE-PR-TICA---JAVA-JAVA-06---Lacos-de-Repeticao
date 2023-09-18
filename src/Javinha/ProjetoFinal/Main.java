@@ -6,6 +6,6 @@ public class Main {
         //Objetos
         MenuInicial funcaoInicial = new MenuInicial();
         funcaoInicial.boasVindas();
-        funcaoInicial.menuInicial();
+        funcaoInicial.menuDeOpcoes();
     }
 }
