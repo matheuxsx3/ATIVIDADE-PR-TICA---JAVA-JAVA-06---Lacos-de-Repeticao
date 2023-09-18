@@ -56,9 +56,12 @@ public class FuncoesCarrinho {
         }
     }
 
-    public void exibirCarrinho() {
-        List<Produto> itensNoCarrinho = carrinho.getItens();
 
+    public void exibirCarrinho() {
+        //        List<Produto> itensNoCarrinho = carrinho.getItens();
+
+
+        List<Produto> itensNoCarrinho = carrinho.getItens().stream().distinct().toList();
         if (itensNoCarrinho.isEmpty()) {
             System.out.println("O carrinho está vazio.");
         } else {
