@@ -1,6 +1,6 @@
 package Javinha.Poo.InterfacesAbstracao;
 
-class Cliente extends Pessoa {
+class Cliente extends Pessoa implements Visualizavel {
     private String dataInicioParceria;
 
     public Cliente(String nome, String numeroTelefone, String nacionalidade, String endereco, String dataInicioParceria) {

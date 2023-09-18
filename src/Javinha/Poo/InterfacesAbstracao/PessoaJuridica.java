@@ -2,7 +2,7 @@ package Javinha.Poo.InterfacesAbstracao;
 
 
 
-class PessoaJuridica extends Cliente {
+class PessoaJuridica extends Cliente implements Visualizavel {
 
     private String cnpj;
     private int idadeDaEmpresa;

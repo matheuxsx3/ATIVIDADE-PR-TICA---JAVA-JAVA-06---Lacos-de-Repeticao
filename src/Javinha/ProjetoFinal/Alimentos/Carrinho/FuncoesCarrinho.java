@@ -30,11 +30,11 @@ public class FuncoesCarrinho {
                 produtoSelecionado.setQuantidade(subtrairQuantidade);
                 quantidadeCarrinho = quantidade;
                 System.out.println("A quantidade de " + produtoSelecionado.getNome().strip() + " agora é: " + produtoSelecionado.getQuantidade());
-
             }
         } else {
             System.err.println("O código informado não corresponde a nenhum produto!");
         }
+
     }
 
     public void removerProduto(int id) {
@@ -49,9 +49,9 @@ public class FuncoesCarrinho {
         if (variavel != null) {
             itensNoCarrinho.remove(variavel);
             System.out.println(variavel.getNome().strip() + " foi REMOVIDO do carrinho.");
-            int adicionarQuantidade = variavel.getQuantidade()+quantidadeCarrinho;
+            int adicionarQuantidade = variavel.getQuantidade() + quantidadeCarrinho;
             variavel.setQuantidade(adicionarQuantidade);
-        }else {
+        } else {
             System.out.println("Não foi possível encontrar o produto no carrinho");
         }
     }

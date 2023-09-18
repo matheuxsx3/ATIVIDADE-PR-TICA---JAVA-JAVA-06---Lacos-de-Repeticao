@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d7435b-6dcb-497b-b496-13d91a50204e" name="Changes" comment="Projeto final">
-      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/OrganizarCarrinho.java" afterDir="false" />
+    <list default="true" id="a9d7435b-6dcb-497b-b496-13d91a50204e" name="Changes" comment="Atualizção Projeto final">
+      <change afterPath="$PROJECT_DIR$/src/Javinha/Poo/InterfacesAbstracao/PegarCpf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/Cores.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Cardapios/Cardapio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Cardapios/Cardapio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/Carrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/Carrinho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/FuncoesCarrinho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/FuncoesGerais.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/MenuCardapio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/MenuInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/MenuInicial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/Poo/InterfacesAbstracao/TestaCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/Poo/InterfacesAbstracao/TestaCliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/FuncoesCarrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/FuncoesCarrinho.java" afterDir="false" />
     </list>
     <list id="3c73f727-312f-4105-8fff-0086d50191d5" name="Changes by elias" comment="" />
+    <list id="43d8734f-b36c-4401-8f4b-fb68b4a5193d" name="Changes by Gabriel" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/FuncoesCarrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/FuncoesCarrinho.java" afterDir="false" />
+    </list>
     <list id="5b1c361c-6514-46fa-a512-73a4cad0addd" name="Changes by user" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +30,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/FuncoesCarrinho.java">
+      <ranges>
+        <range start1="6" end1="6" start2="6" end2="7" changelist="43d8734f-b36c-4401-8f4b-fb68b4a5193d" />
+        <range start1="32" end1="33" start2="33" end2="33" changelist="a9d7435b-6dcb-497b-b496-13d91a50204e" />
+        <range start1="37" end1="37" start2="37" end2="38" changelist="a9d7435b-6dcb-497b-b496-13d91a50204e" />
+        <range start1="51" end1="52" start2="52" end2="53" changelist="a9d7435b-6dcb-497b-b496-13d91a50204e" />
+        <range start1="53" end1="54" start2="54" end2="55" changelist="a9d7435b-6dcb-497b-b496-13d91a50204e" />
+        <range start1="58" end1="58" start2="59" end2="60" changelist="43d8734f-b36c-4401-8f4b-fb68b4a5193d" />
+        <range start1="59" end1="60" start2="61" end2="62" changelist="43d8734f-b36c-4401-8f4b-fb68b4a5193d" />
+        <range start1="61" end1="61" start2="63" end2="65" changelist="43d8734f-b36c-4401-8f4b-fb68b4a5193d" />
+      </ranges>
+    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -77,7 +89,7 @@
       <recent name="Javinha.Poo.Interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TestaCliente">
     <configuration name="DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javinha.collections.queue.DeverUm" />
       <module name="generation" />
@@ -119,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestaCliente" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.DeverUm" />
       </list>
     </recent_temporary>
@@ -214,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694985126229</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Atualizção Projeto final">
+      <option name="closed" value="true" />
+      <created>1695069302788</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695069302788</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +257,8 @@
     <MESSAGE value="criacão do primerio projeto final" />
     <MESSAGE value="docs ocultos" />
     <MESSAGE value="Projeto final" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projeto final" />
+    <MESSAGE value="Atualizção Projeto final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizção Projeto final" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

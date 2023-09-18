@@ -1,6 +1,6 @@
 package Javinha.Poo.InterfacesAbstracao;
 
-final class PessoaFisica extends Cliente {
+final class PessoaFisica extends Cliente implements Visualizavel {
     private double altura;
     private String cpf;
     private String rg;

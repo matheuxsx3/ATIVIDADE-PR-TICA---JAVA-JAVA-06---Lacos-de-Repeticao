@@ -1,6 +1,6 @@
 package Javinha.Poo.InterfacesAbstracao;
 
-public class Patrocinadores extends Pessoa implements Contrato {
+public class Patrocinadores extends Pessoa implements Contrato,Visualizavel {
 
     @Override
     public void produtoContribuido() {
