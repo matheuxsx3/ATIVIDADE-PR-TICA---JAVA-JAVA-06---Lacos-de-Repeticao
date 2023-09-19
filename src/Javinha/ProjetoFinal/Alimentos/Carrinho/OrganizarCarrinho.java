@@ -7,4 +7,5 @@ public interface OrganizarCarrinho {
     void removerProduto(int id);
 
     public void exibirCarrinho();
+    public void comprarItens();
 }

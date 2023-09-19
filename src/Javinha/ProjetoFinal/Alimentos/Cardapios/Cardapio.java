@@ -1,7 +1,7 @@
 package Javinha.ProjetoFinal.Alimentos.Cardapios;
 
 import Javinha.ProjetoFinal.Alimentos.Produto;
-import Javinha.ProjetoFinal.Funcoes.MenuInicial;
+import Javinha.ProjetoFinal.Inicio.MenuInicial;
 
 import java.util.Random;
 

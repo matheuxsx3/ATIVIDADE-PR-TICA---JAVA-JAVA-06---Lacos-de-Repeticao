@@ -1,5 +1,5 @@
 package Javinha.ProjetoFinal;
-import Javinha.ProjetoFinal.Funcoes.MenuInicial;
+import Javinha.ProjetoFinal.Inicio.MenuInicial;
 
 public class Main {
     public static void main(String[] args) {

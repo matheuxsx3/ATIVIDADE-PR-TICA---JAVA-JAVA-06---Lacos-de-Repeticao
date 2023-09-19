@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9d7435b-6dcb-497b-b496-13d91a50204e" name="Changes" comment="funcionando">
-      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/IsCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/MenuInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/MenuInicial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Cardapios/Cardapio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Cardapios/Cardapio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/Carrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/Carrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/FuncoesCarrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/FuncoesCarrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/OrganizarCarrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/OrganizarCarrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/Cores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/MenuInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Inicio/MenuInicial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/IsCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/IsCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,12 +41,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "matheuxsx3"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;matheuxsx3&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -137,7 +144,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a9d7435b-6dcb-497b-b496-13d91a50204e" name="Changes" comment="" />
-      <changelist id="" name="New changelist" comment="" />
       <created>1694560863909</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -263,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695088346856</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="funcionando">
+      <option name="closed" value="true" />
+      <created>1695094762802</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1695094762802</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

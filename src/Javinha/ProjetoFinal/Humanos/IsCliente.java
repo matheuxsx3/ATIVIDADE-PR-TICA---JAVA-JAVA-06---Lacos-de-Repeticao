@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class IsCliente extends Cliente {
 
-    public IsCliente(String nome, String numeroContato, String endereco) {
-        super(nome, numeroContato, endereco);
+    public IsCliente(String nome, String numeroContato, String endereco, double quantidadeDinheiro) {
+        super(nome, numeroContato, endereco, quantidadeDinheiro);
+    }
+
+    public IsCliente() {
     }
 
     public static Cliente verificarSeCliente(boolean parametro) {
@@ -21,7 +24,9 @@ public class IsCliente extends Cliente {
             String numeroTelefone = scanner.nextLine();
             System.out.println("Digite seu endereço:");
             String endereco = scanner.nextLine();
-            cliente = new Cliente(nome, numeroTelefone, endereco);
+            System.out.println("Digite quanto de dinheiro você possui:");
+            double dinherio = scanner.nextDouble();
+            cliente = new Cliente(nome, numeroTelefone, endereco, dinherio);
         } else {
             System.out.println("Você já está cadastrado!");
         }

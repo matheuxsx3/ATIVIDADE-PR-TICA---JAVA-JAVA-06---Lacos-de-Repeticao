@@ -3,6 +3,7 @@ package Javinha.ProjetoFinal.Humanos;
 public class Cliente extends Pessoa {
     private String numeroContato;
     private String endereco;
+    private double quantidadeDinheiro;
     @Override
     void visualizar() {
         super.visualizar();
@@ -10,10 +11,11 @@ public class Cliente extends Pessoa {
         System.out.println("endereço :" + endereco);
 
     }
-    public Cliente(String nome, String numeroContato, String endereco) {
+    public Cliente(String nome, String numeroContato, String endereco, double quantidadeDinheiro) {
         super(nome);
         this.numeroContato = numeroContato;
         this.endereco = endereco;
+        this.quantidadeDinheiro = quantidadeDinheiro;
     }
     public Cliente(){
     }
@@ -32,4 +34,13 @@ public class Cliente extends Pessoa {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
+
+    public double getQuantidadeDinheiro() {
+        return quantidadeDinheiro;
+    }
+
+    public void setQuantidadeDinheiro(double quantidadeDinheiro) {
+        this.quantidadeDinheiro = quantidadeDinheiro;
+    }
 }
+

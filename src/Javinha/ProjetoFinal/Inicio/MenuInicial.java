@@ -1,4 +1,4 @@
-package Javinha.ProjetoFinal.Funcoes;
+package Javinha.ProjetoFinal.Inicio;
 
 import Javinha.ProjetoFinal.Alimentos.Cardapios.Cardapio;
 
@@ -11,8 +11,10 @@ import java.util.Scanner;
 
 
 public class MenuInicial {
+    public static double saldo;
     static FuncoesCarrinho funcoesCarrinho = new FuncoesCarrinho();
-    static boolean variavelVerificadora = false;
+    public static boolean variavelVerificadora = false;
+    static Cliente cliente = null;
 
     public void boasVindas() {
         System.out.println("*****************************************************************");
@@ -36,14 +38,14 @@ public class MenuInicial {
         System.out.println("│  1. Cadastrar cliente        │ 5. Ver o carrinho de compras       │");
         System.out.println("│  2. Ver o cardápio           │ 6. Adicionar produto no carrinho   │");
         System.out.println("│  3. Opções de contato        │ 7. Remover produto do carrinho     │");
-        System.out.println("│  4. Avaliar o nosso serviço  │                                    │");
+        System.out.println("│  4. Avaliar o nosso serviço  │ 8. Comprar Produtos do carrinho    │");
         System.out.println("│===================================================================│");
         System.out.println("│                          0. Sair                                  │");
         System.out.println("│===================================================================│");
 
 
         Scanner scanner = new Scanner(System.in);
-        Cliente cliente = null;
+
         boolean loop = true;
         while (loop) {
             System.out.println("\nDigite uma opção do MENU:");
@@ -61,10 +63,11 @@ public class MenuInicial {
 
 
                 case 1:
-                    if (cliente == null) { // Verifica se o cliente ainda não foi criado
+                    if (cliente == null) {
                         cliente = IsCliente.verificarSeCliente(variavelVerificadora);
                         if (cliente != null) {
                             variavelVerificadora = true;
+                            saldo = cliente.getQuantidadeDinheiro();
                             System.out.println("Agradecemos por virar cliente, muito obrigado " + cliente.getNome() + "!");
                         }
                     } else {
@@ -78,18 +81,29 @@ public class MenuInicial {
                     System.out.println("Instagram : @matheuxsx3\nWhatsapp : 4002-8922");
                     break;
                 case 4:
+                    System.out.println("Você escolheu avaliar o nosso serviço!");
+                    System.out.println("Ficamos honrados em receber seu feedback!");
+                    System.out.println("Diga mais sobre sua experiência conosco:");
+                    scanner.next();
+                    System.out.println("Feedback recebido com sucesso, muito obrigado!");
                     break;
                 case 5:
                     funcoesCarrinho.exibirCarrinho();
                     break;
                 case 6:
                     System.out.println("Você escolheu adicionar um item ao carrinho!");
-                    System.out.println("Qual é o código do item que você deseja adicionar?:");
-                    int codigoSelecionado = scanner.nextInt();
-                    System.out.println("Qual é a quantidade que você deseja?:");
-                    int quantidadeSelecionada = scanner.nextInt();
-                    funcoesCarrinho.encontrarProdutoAdicionado(codigoSelecionado, quantidadeSelecionada);
-                    break;
+                    while (true) {
+                        try {
+                            System.out.println("Qual é o código do item que você deseja adicionar?:");
+                            int codigoSelecionado = scanner.nextInt();
+                            System.out.println("Qual é a quantidade que você deseja?:");
+                            int quantidadeSelecionada = scanner.nextInt();
+                            funcoesCarrinho.encontrarProdutoAdicionado(codigoSelecionado, quantidadeSelecionada);
+                            break;
+                        } catch (Exception e) {
+                            throw new RuntimeException(e);
+                        }
+                    }break;
 
                 case 7:
                     System.out.println("Você escolheu remover um produto do carrinho.");
@@ -105,6 +119,9 @@ public class MenuInicial {
                     }
                     break;
                 case 8:
+                    System.out.println("Você escolheu comprar itens do carrinho");
+                    funcoesCarrinho.comprarItens();
+                    break;
                 default:
                     System.out.println("O numero escolhido não esta disponivel.");
                     break;
