@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9d7435b-6dcb-497b-b496-13d91a50204e" name="Changes" comment="Atualizção">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/FuncoesCarrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/FuncoesCarrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/OrganizarCarrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/OrganizarCarrinho.java" afterDir="false" />
     </list>
-    <list id="3c73f727-312f-4105-8fff-0086d50191d5" name="Changes by elias" comment="" />
-    <list id="5b1c361c-6514-46fa-a512-73a4cad0addd" name="Changes by user" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +30,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "matheuxsx3"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="797d3e6c-9584-4392-b8f9-7c86104e0d01" />
+        <option name="url" value="https://github.com/matheuxsx3/Generation.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -68,7 +82,7 @@
       <recent name="Javinha.Poo.Interfaces" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestaCliente">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DeverUm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Javinha.collections.queue.DeverUm" />
       <module name="generation" />
@@ -110,8 +124,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestaCliente" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestaCliente" />
         <item itemvalue="Application.DeverUm" />
       </list>
     </recent_temporary>
@@ -222,7 +236,23 @@
       <option name="project" value="LOCAL" />
       <updated>1695074588343</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Atualizção">
+      <option name="closed" value="true" />
+      <created>1695074863736</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1695074863736</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Atualizção">
+      <option name="closed" value="true" />
+      <created>1695074932012</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1695074932012</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,9 +276,9 @@
     <MESSAGE value="docs ocultos" />
     <MESSAGE value="Projeto final" />
     <MESSAGE value="Atualizção Projeto final" />
-    <MESSAGE value="Atualizção" />
     <MESSAGE value="Changes by Gabriel" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes by Gabriel" />
+    <MESSAGE value="Atualizção" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizção" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

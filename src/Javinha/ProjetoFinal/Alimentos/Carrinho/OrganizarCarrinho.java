@@ -1,5 +1,10 @@
-//package Javinha.ProjetoFinal.Alimentos.Carrinho;
-//
-//public interface OrganizarCarrinho {
-//    public class FuncoesCarrinho;
-//}
+package Javinha.ProjetoFinal.Alimentos.Carrinho;
+
+public interface OrganizarCarrinho {
+
+    void encontrarProdutoAdicionado(int id, int quantidade);
+
+    void removerProduto(int id);
+
+    public void exibirCarrinho();
+}

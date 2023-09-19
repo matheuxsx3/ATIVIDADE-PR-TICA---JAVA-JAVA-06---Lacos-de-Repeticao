@@ -4,10 +4,11 @@ import Javinha.ProjetoFinal.Alimentos.Cardapios.Cardapio;
 import Javinha.ProjetoFinal.Alimentos.Produto;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class FuncoesCarrinho {
+
     Carrinho carrinho = new Carrinho();
+    List<Produto> itensNoCarrinho = carrinho.getItens();
     Produto[] cardapio = Cardapio.getCardapio();
     int quantidadeCarrinho;
 
@@ -24,13 +25,16 @@ public class FuncoesCarrinho {
                 System.err.println("A quantidade informada não está disponivel!");
                 System.err.println("O produto não foi adicionado ao carrinho.");
 
-            } else {
+            } else if (itensNoCarrinho.contains(produtoSelecionado)){
+                System.err.println("O produto ja existe no carrinho.\n remova-o e adicione novamente!");
+            }else{
                 carrinho.itens.add(produtoSelecionado);
                 System.out.println("Produto adicionado ao carrinho: " + produtoSelecionado.getNome());
                 int subtrairQuantidade = produtoSelecionado.getQuantidade() - quantidade;
                 produtoSelecionado.setQuantidade(subtrairQuantidade);
                 quantidadeCarrinho = quantidade;
                 System.out.println("A quantidade de " + produtoSelecionado.getNome().strip() + " agora é: " + produtoSelecionado.getQuantidade());
+
             }
         } else {
             System.err.println("O código informado não corresponde a nenhum produto!");
@@ -59,10 +63,7 @@ public class FuncoesCarrinho {
 
 
     public void exibirCarrinho() {
-        //        List<Produto> itensNoCarrinho = carrinho.getItens();
 
-
-        List<Produto> itensNoCarrinho = carrinho.getItens().stream().distinct().toList();
         if (itensNoCarrinho.isEmpty()) {
             System.out.println("O carrinho está vazio.");
         } else {
