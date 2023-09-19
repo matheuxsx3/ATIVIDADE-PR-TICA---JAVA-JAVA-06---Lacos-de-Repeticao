@@ -10,13 +10,13 @@ public class Cliente extends Pessoa {
         System.out.println("endereço :" + endereco);
 
     }
-
     public Cliente(String nome, String numeroContato, String endereco) {
         super(nome);
         this.numeroContato = numeroContato;
         this.endereco = endereco;
     }
-
+    public Cliente(){
+    }
     public String getNumeroContato() {
         return numeroContato;
     }

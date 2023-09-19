@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d7435b-6dcb-497b-b496-13d91a50204e" name="Changes" comment="Atualizção">
+    <list default="true" id="a9d7435b-6dcb-497b-b496-13d91a50204e" name="Changes" comment="funcionando">
+      <change afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/IsCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/FuncoesCarrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/FuncoesCarrinho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/OrganizarCarrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Alimentos/Carrinho/OrganizarCarrinho.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/MenuInicial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Funcoes/MenuInicial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Humanos/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Javinha/ProjetoFinal/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -252,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695074932012</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="funcionando">
+      <option name="closed" value="true" />
+      <created>1695088346856</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1695088346856</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,7 +289,8 @@
     <MESSAGE value="Atualizção Projeto final" />
     <MESSAGE value="Changes by Gabriel" />
     <MESSAGE value="Atualizção" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizção" />
+    <MESSAGE value="funcionando" />
+    <option name="LAST_COMMIT_MESSAGE" value="funcionando" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

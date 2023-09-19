@@ -8,6 +8,9 @@ public abstract class Pessoa {
         this.nome = nome;
     }
 
+    protected Pessoa() {
+    }
+
     void visualizar() {
         System.out.println("nome : " + nome);
 

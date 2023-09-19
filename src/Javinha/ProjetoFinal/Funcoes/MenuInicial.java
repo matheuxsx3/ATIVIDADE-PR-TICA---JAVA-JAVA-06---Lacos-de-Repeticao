@@ -3,13 +3,16 @@ package Javinha.ProjetoFinal.Funcoes;
 import Javinha.ProjetoFinal.Alimentos.Cardapios.Cardapio;
 
 import Javinha.ProjetoFinal.Alimentos.Carrinho.FuncoesCarrinho;
+import Javinha.ProjetoFinal.Humanos.Cliente;
+import Javinha.ProjetoFinal.Humanos.IsCliente;
 
 
 import java.util.Scanner;
-import java.util.WeakHashMap;
+
 
 public class MenuInicial {
     static FuncoesCarrinho funcoesCarrinho = new FuncoesCarrinho();
+    static boolean variavelVerificadora = false;
 
     public void boasVindas() {
         System.out.println("*****************************************************************");
@@ -30,17 +33,17 @@ public class MenuInicial {
         System.out.println("│===================================================================│");
         System.out.println("│                        Menu de Ações                              │");
         System.out.println("│===================================================================│");
-        System.out.println("│  1. Ver promoções do dia     │ 5. Ver o carrinho de compras       │");
+        System.out.println("│  1. Cadastrar cliente        │ 5. Ver o carrinho de compras       │");
         System.out.println("│  2. Ver o cardápio           │ 6. Adicionar produto no carrinho   │");
         System.out.println("│  3. Opções de contato        │ 7. Remover produto do carrinho     │");
-        System.out.println("│  4. Avaliar o nosso serviço  │ 8. Resetar carrinho                │");
+        System.out.println("│  4. Avaliar o nosso serviço  │                                    │");
         System.out.println("│===================================================================│");
         System.out.println("│                          0. Sair                                  │");
         System.out.println("│===================================================================│");
 
 
         Scanner scanner = new Scanner(System.in);
-
+        Cliente cliente = null;
         boolean loop = true;
         while (loop) {
             System.out.println("\nDigite uma opção do MENU:");
@@ -48,17 +51,31 @@ public class MenuInicial {
             int num = scanner.nextInt();
             switch (num) {
                 case 0:
+                    if (cliente != null) {
+                        System.out.println("Tchau, " + cliente.getNome() + "!");
+                    } else {
+                        System.out.println("Até mais!");
+                    }
                     loop = false;
                     break;
 
+
                 case 1:
-                    System.out.println("promoções esgotadas");
+                    if (cliente == null) { // Verifica se o cliente ainda não foi criado
+                        cliente = IsCliente.verificarSeCliente(variavelVerificadora);
+                        if (cliente != null) {
+                            variavelVerificadora = true;
+                            System.out.println("Agradecemos por virar cliente, muito obrigado " + cliente.getNome() + "!");
+                        }
+                    } else {
+                        System.out.println("Você já está cadastrado!");
+                    }
                     break;
                 case 2:
                     Cardapio.mostrarCardapio(Cardapio.getCardapio());
                     break;
                 case 3:
-                    System.out.println("opcao em construção");
+                    System.out.println("Instagram : @matheuxsx3\nWhatsapp : 4002-8922");
                     break;
                 case 4:
                     break;
