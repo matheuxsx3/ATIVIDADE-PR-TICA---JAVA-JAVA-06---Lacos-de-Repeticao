@@ -1,4 +1,4 @@
-package Javinha.Poo.InterfacesAbstracao;
+package Javinha.Poo.DeverUm;
 
 class Cliente extends Pessoa implements Visualizavel {
     private String dataInicioParceria;

@@ -1,4 +1,4 @@
-package Javinha.Poo.InterfacesAbstracao;
+package Javinha.Poo.DeverUm;
 public interface Visualizavel {
     void visualizar();
 }

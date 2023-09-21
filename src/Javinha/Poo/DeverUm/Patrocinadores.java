@@ -1,4 +1,4 @@
-package Javinha.Poo.InterfacesAbstracao;
+package Javinha.Poo.DeverUm;
 
 public class Patrocinadores extends Pessoa implements Contrato,Visualizavel {
 

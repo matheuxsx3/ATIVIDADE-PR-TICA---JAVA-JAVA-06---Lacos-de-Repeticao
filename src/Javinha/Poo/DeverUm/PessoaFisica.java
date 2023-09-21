@@ -1,6 +1,6 @@
-package Javinha.Poo.HerancaPolimorfismo.DeverUm;
+package Javinha.Poo.DeverUm;
 
-final class PessoaFisica extends Cliente {
+final class PessoaFisica extends Cliente implements Visualizavel {
     private double altura;
     private String cpf;
     private String rg;
@@ -15,9 +15,9 @@ final class PessoaFisica extends Cliente {
     @Override
     public void visualizar() {
         super.visualizar();
-        System.out.println("altura = "+ altura);
-        System.out.println("cpf = "+ cpf);
-        System.out.println("rg = "+ rg);
+        System.out.println("altura = " + altura + "m");
+        System.out.println("cpf = " + cpf);
+        System.out.println("rg = " + rg);
     }
 
     public double getAltura() {
@@ -44,4 +44,3 @@ final class PessoaFisica extends Cliente {
         this.rg = rg;
     }
 }
-
