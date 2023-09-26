@@ -1,6 +1,6 @@
 //Escreva um algoritmo em Java, que leia um número inteiro via teclado e mostre na tela uma mensagem
 // indicando se este número é par ou ímpar e se o número é positivo ou negativo.
-// Veja os exemplos abaixo:
+
 
 package Bloco1.Javinha.LacosDecisao.IfElse;
 
